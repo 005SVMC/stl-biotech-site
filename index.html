@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STL Biotech Companies Directory</title>
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+
+  <!-- jQuery and DataTables JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+</head>
+
+<body>
+
+  <!-- 🔵 BLUE TOP DONATE BAR -->
+  <div class="top-donate-bar">
+    Donate to BioSTL
+  </div>
+
+<header class="bio-header">
+  <div class="bio-header-row">
+
+    <!-- LEFT COLUMN: BioSTL logo -->
+    <div class="header-left">
+      <img src="assets/images/biostl-logo.png" class="bio-logo">
+    </div>
+
+    <!-- CENTER COLUMN: ATLAS logo + tagline -->
+    <div class="header-center">
+      <img src="assets/images/biostl-atlas.png" class="atlas-logo">
+    </div>
+
+    <!-- RIGHT COLUMN: intentionally empty -->
+    <div class="header-right"></div>
+
+  </div>
+</header>
+
+
+
+  <!-- ⭐ MAIN CONTENT WRAPPED FOR CLEAN LAYOUT -->
+  <div class="container">
+
+    <h1>St. Louis Biotech Companies</h1>
+    <p>Search, sort, and explore biotech companies across St. Louis.</p>
+
+    <table id="biotech-table" class="display"></table>
+
+  </div> <!-- END container -->
+
+  <!-- Your script -->
+  <script src="script.js"></script>
+
+</body>
+</html>

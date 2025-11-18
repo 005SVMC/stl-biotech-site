@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 40px;
+  background: #f8f9fa;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+table.dataTable {
+  width: 100%;
+  margin-top: 20px;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+/*🔥 DARK BLUE donation bar */
+.top-donate-bar {
+  width: 100%;
+  background: #002b5c;      /* BioSTL blue */
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+/* FULL-WIDTH HEADER AREA */
+.bio-header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 8px solid #002b5c;
+  padding: 0;
+  margin: 0;
+}
+
+/* 3-COLUMN ROW */
+.bio-header-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* LEFT COLUMN */
+.header-left {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+
+.bio-logo {
+  height: 90px;
+}
+
+/* CENTER COLUMN */
+.header-center {
+  text-align: center;
+}
+
+.atlas-logo {
+  height: 130px;  /* bigger like your screenshot */
+  display: block;
+  margin: 0 auto;
+}
+
+.atlas-tagline {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #002b5c;
+  font-weight: 500;
+}
+
+/* RIGHT COLUMN: EMPTY */
+.header-right {
+  padding-right: 40px;
+}
+
+.description-cell {
+  max-width: 350px;    /* adjust to preference */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* show only 2 lines */
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+
+.description-expanded {
+  -webkit-line-clamp: unset;
+  max-height: none;
+}
